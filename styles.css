@@ -1,0 +1,184 @@
+.a {
+    text-align: center;
+    color: white;
+    letter-spacing: 2px;
+    font-size: large;
+}
+
+.b {
+    color: white;
+    text-decoration-line: underline;
+    text-align: center;
+    font-size: 250%;
+}
+
+.c {
+    color: white;
+    font-size: 500%;
+    vertical-align: middle;
+}
+
+.d {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    letter-spacing: 5px;
+    color: darkgoldenrod;
+}
+
+.e {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.f {
+    color: darkgoldenrod;
+}
+
+h3 {
+    letter-spacing: 5px;
+    color: darkgoldenrod;
+}
+
+h4 {
+    letter-spacing: 5px;
+    color: darkgoldenrod;
+}
+
+h5 {
+    letter-spacing: 5px;
+}
+
+.color-box {
+    width: 50%;
+    height: max-content;
+    background-color: black;
+    margin: auto;
+    padding: 5%;
+    text-align: center;
+}
+
+.hr1 {
+    width: 75%;
+    color: grey;
+}
+
+a {
+    text-decoration-color: black;
+}
+
+.img {
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.hello {
+    width: 100%;
+    padding: 2%;
+}
+
+.button1 {
+    background-color: white;
+    color: black;
+    width: 20%;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: solid;
+    border-width: medium;
+    cursor: pointer;
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    letter-spacing: 5px;
+}
+
+.button2 {
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 10px 20px;
+    border: solid;
+    border-width: medium;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 5px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.hr2 {
+    width: auto;
+    height: 2px;
+    background-color: white;
+}
+
+.article {
+    margin-bottom: auto;
+    padding: 5%;
+    position: relative;
+    
+}
+
+.newsletter {
+    margin-bottom: auto;
+    padding: 5%;
+    left: 20%;
+    position: relative;
+}
+
+.newsletter input {
+    padding: 10px;
+    width: 250px;
+    margin-right: 10px;
+    border: none;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.vertical-line {
+    position: relative;
+    left: 30%;
+    height: auto;
+    width: 2px;
+    background-color: white;
+}
+
+.headquarters {
+    max-width: max-content;
+    padding-left: 5%;
+}
+
+.a2 {
+    color: white;
+    text-decoration: underline;
+}
+
+.office {
+    margin: auto;
+    max-width: max-content;
+}
+
+.office a {
+    color: white;
+    text-decoration: underline;
+}
