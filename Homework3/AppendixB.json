@@ -1,0 +1,19 @@
+
+{
+  "Mainline": {
+    "Table": {
+      "Header": {
+        "Data": [
+          "Company", "Services", "Location", "Revenue", "Home Page", "Logo"
+        ]
+      },
+      "Row": [
+        {
+          "Company": "ABC Trucking",
+          "Services": "Freight",
+          "Revenue": "$2B"
+        }
+      ]
+    }
+  }
+}
