@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stock Info</title>
+    <link rel="stylesheet" href="../static/css/styles.css">
+</head>
+<body>
+    <h2>Stock Search</h2>
+    <input type="text" id="tickerInput" placeholder="Enter stock ticker" required>
+    <button id="searchBtn">Search</button>
+    <button id="clearBtn">Clear</button>
+    <p id="errorMsg" class="error"></p>
+
+    <div class="tabs">
+        <button onclick="showTab('outlook')">Company Outlook</button>
+        <button onclick="showTab('summary')">Stock Summary</button>
+        <button onclick="loadHistory()">Search History</button>
+    </div>
+
+    <div id="outlook" class="tab"></div>
+    <div id="summary" class="tab"></div>
+    <div id="history" class="tab"></div>
+
+    <script src="../static/js/script.js"></script>
+</body>
+</html>

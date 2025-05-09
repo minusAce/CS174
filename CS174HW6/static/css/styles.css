@@ -1,0 +1,14 @@
+.tab {
+    display: none;
+}
+.tab.active {
+    display: block;
+}
+.error {
+    color: red;
+}
+
+table, th, td
+{
+    border: 1px solid;
+}
